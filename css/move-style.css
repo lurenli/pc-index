@@ -1,0 +1,79 @@
+ .movedownload{
+    width:100%;
+    height:100%;
+    background:#000
+}
+#top{
+    height:11.74vw;
+    width:100%;
+    color:#fff;
+    text-align:center;
+    line-height:11.74vw;
+    font-size:4.26vw
+}
+#top .toptitle{
+    float:left;
+    margin-left:2vw;
+    font-size:6vw;
+}
+#main{
+    width:53.4vw;
+    height:auto;
+    position:relative;
+    background:#000;
+    margin:0 auto;
+    text-align:center
+}
+#main .img{
+    width:41.07vw;
+    height:41.06vw;
+    margin-top:18.67vw
+}
+.title{
+    font-size:5.33vw;
+    color:#fff
+}
+.Ios{
+    width:53.4vw;
+    height:12vw;
+    font-size:5.33vw;
+    color:#fff;
+    margin-top:17.06vw;
+    background:#FA5637;
+    border:0px
+}
+.Android{
+    width:53.4vw;
+    height:12vw;
+    font-size:5.33vw;
+    color:#fff;
+    margin-top:4.26vw;
+    background:#1FA92B;
+    border:0px
+}
+#Iosstduy{
+    width:53.4vw;
+    height:12vw;
+    font-size:5.33vw;
+    color:#fff;
+    margin-bottom:37vw;
+    margin-top:4.26vw;
+    background:#FA5637;
+    border:0px;
+}
+/* #Jc{
+    width:72vw;
+    height:128vw;
+    position:absolute;
+    top:7vw;
+    left:-8vw;
+    display:none;
+}*/
+/*.stopopen{
+  color:red;
+  font-size:10vw;
+  position:absolute;
+  top:1vw;
+  right:-13vw;
+  display: none
+}*/

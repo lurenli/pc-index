@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+  <title>移动端下载</title>
+  <link href="css/public.css" rel="stylesheet" type="text/css" /> 
+  <link href="css/move-style.css" rel="stylesheet" type="text/css" />  
+</head>
+<body>
+  <div class="movedownload">
+     <div id="top">
+      <span class="toptitle">&lt;</span>下载</div>
+     <div id="main">
+       <img src="images/move.png" class="img"/>
+       <p class="title">佰乐棋牌</p>
+       <button class="Ios">IOS版下载</button>
+       <button class="Android">Android下载</button>
+       <button id="Iosstduy" >IOS操作教程</button>
+        <img  id="jc" style="width:72vw;height:128vw;position:absolute;top:8vw;left:-8vw;display:none;" src="images/cc.gif"/>
+        <span id="stopopen" style="font-size:12vw;color:red;position:absolute;top:1vw;right:-14vw;display:none;">X</span>
+     </div>
+  </div>
+  <script>
+     var Iosdy  = document.getElementById("Iosstduy");
+     var Jc = document.getElementById("jc")
+     var stopopen = document.getElementById("stopopen")
+     Iosdy.onclick=function(){
+      Jc.style.display="block"
+      stopopen.style.display="block" 
+      setTimeout(function(){
+        Jc.style.display="none" 
+      },14000) 
+     }
+     stopopen.onclick=function(){
+      Jc.style.display="none"
+      stopopen.style.display="none"  
+     }
+  </script>
+</body>
+</html>
